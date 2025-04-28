@@ -7,8 +7,8 @@
 #define PIN_SENSOR 39     // GPIO39 (ADC)
 #define PIN_RELE 4        // GPIO4 para relé
 
-const char* WIFI_SSID = "FLIA COPA MEJIA";
-const char* WIFI_PASS = "DcopaMJ2609";
+const char* WIFI_SSID = "Nombre_wifi";
+const char* WIFI_PASS = "Contraseña_wifi";
 const char* MQTT_BROKER = "broker.hivemq.com";
 const char* TOPIC_HUMEDAD = "casa/planta/humedad";
 const char* TOPIC_RIEGO = "casa/planta/regar";
