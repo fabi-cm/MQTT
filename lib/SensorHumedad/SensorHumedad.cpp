@@ -7,5 +7,5 @@ SensorHumedad::SensorHumedad(int pin) : _pin(pin) {
 float SensorHumedad::leerHumedad() {
   int lectura = analogRead(_pin);
   lectura = constrain(lectura, _waterValue, _airValue);
-  return map(lectura, _waterValue, _airValue, 0, 100);  // Convierte a %
+  return map(lectura, _airValue, _waterValue, 0, 100);  // Convierte a %
 }
